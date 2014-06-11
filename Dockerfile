@@ -14,7 +14,7 @@
 # limitations under the License.
 
 # Pull base image.
-FROM stealthly/java
+FROM stealthly/docker-java
 
 # Install Ruby.
 RUN apt-get install -y ruby ruby-dev ruby-bundler
